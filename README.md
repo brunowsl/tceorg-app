@@ -54,3 +54,16 @@ Locally preview production build:
 ```bash
 npm run preview
 ```
+
+# Prisma
+DATABASE_URL=file:./db.sqlite
+
+# Auth
+AUTH_SECRET=secret
+
+# Keycloak
+KEYCLOAK_CLIENT_ID=tceorg-app
+KEYCLOAK_SECRET=QAW7NlsuAetbD5mxBc8CEJkpzqG9dqXC
+KEYCLOAK_CLIENT_ISSUER=https://keycloak.tcema.tc.br/realms/TCE
+
+
